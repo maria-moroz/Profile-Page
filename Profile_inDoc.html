@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <ul class="nav__list">
+            <li>
+              <a href="#personal_info">Personal Info</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#qualifications">Qualifications</a>
+            </li>
+            <li>
+              <a href="#interests">Interests</a>
+            </li>
+            <li>
+              <a href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="avatar__container">
+          <img src="./images/MyPhoto.jpg" alt="My photo" width="200" />
+        </div>
+        <h1 title="Name">Mariia Moroz</h1>
+      </header>
+      <section id="personal_info">
+        <h2 class="section__header">Personal information</h2>
+        <p>Hi, I am a future software engineer</p>
+        <ul class="personal_info__list">
+          <li class="personal_info__item">
+            <span style="color: #765dbb">Age</span> - 21
+          </li>
+          <li class="personal_info__item">
+            <span style="color: #765dbb">Email</span> -
+            <a href="mailto:morozm@cardiff.ac.uk">morozm@cardiff.ac.uk</a>
+          </li>
+          <li class="personal_info__item">
+            <span style="color: #765dbb">Web</span> -
+            <a href="https://github.com/maria-moroz">Github</a>
+          </li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <table class="education_table">
+          <tbody>
+            <tr>
+              <td>
+                <span class="education_table__year">2018 - 2022</span>
+              </td>
+              <td>
+                National Technical University of Ukraine "Igor Sikorsky Kyiv
+                Polytechnic Institute"
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="education_table__year">2018 - present</span>
+              </td>
+              <td>
+                <a href="https://www.cardiff.ac.uk/">Cardiff University</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="qualifications">
+        <h2 class="section__header">Qualifications</h2>
+        <ul>
+          <li>
+            WEB
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="interests">
+        <h2 class="section__header">Interests</h2>
+        <h3 class="film_section__header">Favourite films</h3>
+        <table class="film_table">
+          <thead>
+            <th>Film</th>
+            <th>The reason to love</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="film_img__container batman"></div>
+                <br />
+                <b>The Lego Batman</b>
+              </td>
+              <td>Because it's awesome</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="film_img__container demogorgon"></div>
+                <br />
+                <b>Stranger Things</b>
+              </td>
+              <td>Because demogorgon is beautiful</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="film_img__container intouchables"></div>
+                <br />
+                <b>The Intouchables</b>
+              </td>
+              <td>Because it'll make you cry</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="contact">
+        <h2 class="section__header">Contact me</h2>
+        <form id="myForm" action="index.html" method="post">
+          <label>
+            First name:
+            <input type="text" name="firstName" />
+          </label>
+          <br />
+          <label>
+            Last name:
+            <input type="text" name="lastName" />
+          </label>
+          <br />
+          <textarea id="comment" name="comment" rows="5" cols="50">
+Leave a comment</textarea
+          >
+          <br />
+          <button type="submit" name="submitButton">Send</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

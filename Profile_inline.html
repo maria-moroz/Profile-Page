@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+  </head>
+  <body
+    style="
+      background-color: #fae0e0;
+      background-image: url(./images/background.jpg);
+    "
+  >
+    <main>
+      <header>
+        <nav class="nav">
+          <ul class="navlist">
+            <li class="navlist_item">
+              <a href="#personal_info">Personal Info</a>
+            </li>
+            <li class="navlist_item">
+              <a href="#education">Education</a>
+            </li>
+            <li class="navlist_item">
+              <a href="#qualifications">Qualifications</a>
+            </li>
+            <li class="navlist_item">
+              <a href="#interests">Interests</a>
+            </li>
+            <li class="navlist_item">
+              <a href="#contact">Contact me</a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          style="
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            background-image: url(./images/MyPhoto.jpg);
+            background-position: 0 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+          "
+        ></div>
+        <h1 title="Name" style="color: #765dbb">Mariia Moroz</h1>
+      </header>
+      <section id="personal_info">
+        <h2 style="color: #ef64ae">Personal information</h2>
+        <p>Hi, I am a future software engineer</p>
+        <ul>
+          <li><b>Age</b> - 21</li>
+          <li>
+            <b>Email</b> -
+            <a href="mailto:morozm@cardiff.ac.uk">morozm@cardiff.ac.uk</a>
+          </li>
+          <li>
+            <b>Web</b> - <a href="https://github.com/maria-moroz">Github</a>
+          </li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2 style="color: #ef64ae">Education</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <b>2018 - 2022</b>
+              </td>
+              <td>
+                National Technical University of Ukraine "Igor Sikorsky Kyiv
+                Polytechnic Institute"
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>2018 - present</b>
+              </td>
+              <td>
+                <a href="https://www.cardiff.ac.uk/">Cardiff University</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="qualifications">
+        <h2 style="color: #ef64ae">Qualifications</h2>
+        <ul>
+          <li>
+            WEB
+            <ul>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="interests">
+        <h2 style="color: #ef64ae">Interests</h2>
+        <h3 style="color: #765dbb">Favourite films</h3>
+        <table>
+          <thead>
+            <th>Film</th>
+            <th>The reason to love</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div
+                  style="
+                    border-radius: 50%;
+                    width: 100px;
+                    height: 100px;
+                    overflow: hidden;
+                    background-image: url(./images/batman.jpg);
+                    background-position: 0 0;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                  "
+                ></div>
+                <br />
+                <b>The Lego Batman</b>
+              </td>
+              <td>Because it's awesome</td>
+            </tr>
+            <tr>
+              <td>
+                <div
+                  style="
+                    border-radius: 50%;
+                    width: 100px;
+                    height: 100px;
+                    overflow: hidden;
+                    background-image: url(./images/demogorgon.jpg);
+                    background-position: 0 0;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                  "
+                ></div>
+                <br />
+                <b>Stranger Things</b>
+              </td>
+              <td>Because demogorgon is beautiful</td>
+            </tr>
+            <tr>
+              <td>
+                <div
+                  style="
+                    border-radius: 50%;
+                    width: 100px;
+                    height: 100px;
+                    overflow: hidden;
+                    background-image: url(./images/intouchables.jpg);
+                    background-position: 0 0;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                  "
+                ></div>
+                <br />
+                <b>The Intouchables</b>
+              </td>
+              <td>Because it'll make you cry</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="contact">
+        <h2 style="color: #ef64ae">Contact me</h2>
+        <form id="myForm" action="index.html" method="post">
+          <label>
+            First name:
+            <input type="text" name="firstName" />
+          </label>
+          <br />
+          <label>
+            Last name:
+            <input type="text" name="lastName" />
+          </label>
+          <br />
+          <textarea id="comment" name="comment" rows="5" cols="50">
+Leave a comment</textarea
+          >
+          <br />
+          <button
+            type="submit"
+            name="submitButton"
+            style="
+              background-color: #765dbb;
+              color: white;
+              padding: 10px;
+              border: none;
+              border-radius: 5px;
+            "
+          >
+            Send
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

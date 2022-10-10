@@ -1,0 +1,96 @@
+body {
+  background-image: url(../images/background.jpg);
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #765dbb;
+}
+
+a {
+  color: #255877;
+}
+
+a:hover {
+  color: #f557ab;
+}
+
+.nav__list {
+  padding-left: 0;
+}
+
+.nav__list > li {
+  list-style: none;
+}
+
+.avatar__container {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.section__header {
+  color: #f557ab;
+}
+
+.personal_info__item > span,
+.education_table__year {
+  color: #765dbb;
+  font-weight: 700;
+}
+
+.education_table {
+  border: #765dbb 2px solid;
+}
+
+.film_section__header,
+.film_table th {
+  color: #255877;
+}
+
+.film_img__container {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.film_img__container.batman {
+  background-image: url(../images/batman.jpg);
+}
+
+.film_img__container.batman:hover {
+  background-image: url(../images/batman2.jpg);
+}
+
+.film_img__container.demogorgon {
+  background-image: url(../images/demogorgon.jpg);
+}
+
+.film_img__container.demogorgon:hover {
+  background-image: url(../images/demogorgon2.jpg);
+}
+
+.film_img__container.intouchables {
+  background-image: url(../images/intouchables.jpg);
+}
+
+.film_img__container.intouchables:hover {
+  background-image: url(../images/intouchables2.jpg);
+}
+
+button[name="submitButton"] {
+  background-color: #765dbb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button[name="submitButton"]:hover {
+  background-color: #255877;
+}
